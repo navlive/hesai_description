@@ -9,6 +9,7 @@ Panels:
         - /RobotModel1
         - /Axes1
         - /Axes2
+        - /Axes3
       Splitter Ratio: 0.5
     Tree Height: 1580
   - Class: rviz_common/Selection
@@ -50,7 +51,7 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: true
-    - Alpha: 1
+    - Alpha: 0.20000000298023224
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
       Description File: ""
@@ -94,7 +95,7 @@ Visualization Manager:
       Length: 0.10000000149011612
       Name: Axes
       Radius: 0.0010000000474974513
-      Reference Frame: hesai_base
+      Reference Frame: base
       Value: true
     - Class: rviz_default_plugins/Axes
       Enabled: true
@@ -102,6 +103,13 @@ Visualization Manager:
       Name: Axes
       Radius: 0.004999999888241291
       Reference Frame: pandar
+      Value: true
+    - Class: rviz_default_plugins/Axes
+      Enabled: true
+      Length: 0.05000000074505806
+      Name: Axes
+      Radius: 0.003000000026077032
+      Reference Frame: hesai_base
       Value: true
   Enabled: true
   Global Options:
@@ -149,7 +157,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.001585602760315
+      Distance: 0.31698018312454224
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -164,10 +172,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8953979015350342
+      Pitch: 0.48539841175079346
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.9953978061676025
+      Yaw: 0.8435880541801453
     Saved: ~
 Window Geometry:
   Displays:
